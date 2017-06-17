@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48705" started-at="2017-06-14T10:47:02Z" finished-at="2017-06-14T10:47:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48705" started-at="2017-06-14T10:47:02Z" finished-at="2017-06-14T10:47:51Z">
+      <class name="com.prj.org.sample">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.prj.org.sample@59f99ea]" name="beforeTest" is-config="true" duration-ms="4940" started-at="2017-06-14T16:17:02Z" finished-at="2017-06-14T16:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="method()[pri:0, instance:com.prj.org.sample@59f99ea]" name="method" is-config="true" duration-ms="18895" started-at="2017-06-14T16:17:07Z" finished-at="2017-06-14T16:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="second()[pri:0, instance:com.prj.org.sample@59f99ea]" name="second" duration-ms="7386" started-at="2017-06-14T16:17:26Z" finished-at="2017-06-14T16:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method status="PASS" signature="method()[pri:0, instance:com.prj.org.sample@59f99ea]" name="method" is-config="true" duration-ms="132" started-at="2017-06-14T16:17:34Z" finished-at="2017-06-14T16:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="third()[pri:0, instance:com.prj.org.sample@59f99ea]" name="third" duration-ms="6647" started-at="2017-06-14T16:17:34Z" depends-on-methods="com.prj.org.sample.second" finished-at="2017-06-14T16:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+        <test-method status="PASS" signature="method()[pri:0, instance:com.prj.org.sample@59f99ea]" name="method" is-config="true" duration-ms="170" started-at="2017-06-14T16:17:41Z" finished-at="2017-06-14T16:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="fifth()[pri:4, instance:com.prj.org.sample@59f99ea]" name="fifth" duration-ms="8290" started-at="2017-06-14T16:17:41Z" finished-at="2017-06-14T16:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifth -->
+        <test-method status="PASS" signature="method()[pri:0, instance:com.prj.org.sample@59f99ea]" name="method" is-config="true" duration-ms="137" started-at="2017-06-14T16:17:49Z" finished-at="2017-06-14T16:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="sixth()[pri:5, instance:com.prj.org.sample@59f99ea]" name="sixth" duration-ms="885" started-at="2017-06-14T16:17:49Z" finished-at="2017-06-14T16:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sixth -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.prj.org.sample@59f99ea]" name="afterTest" is-config="true" duration-ms="1140" started-at="2017-06-14T16:17:50Z" finished-at="2017-06-14T16:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.prj.org.sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
